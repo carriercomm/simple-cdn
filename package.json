@@ -1,0 +1,30 @@
+{
+  "name": "simple-cdn",
+  "version": "0.0.1",
+  "author": "Fabian Faßbender <fabian.fassbender42@googlemail.com>",
+  "description": "Simple CDN gives you HTTP(S) links to your CDN Servers. It cares about down servers",
+  "contributors": [ 
+    {
+      "name": "Fabian Faßbender",
+      "email": "fabian.fassbender42@googlemail.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geNAZt/simple-cdn.git"
+  },
+  "keywords": [
+    "cubespace",
+    "http",
+    "html5",
+    "realtime"
+  ],
+  "main": "./lib/simple-cdn.js",
+  "dependencies" : {
+	"is-alive": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
